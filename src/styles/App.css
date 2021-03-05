@@ -532,6 +532,7 @@ html {
       -ms-user-select: none;
           user-select: none;
   background: #e2f5ee;
+  visibility: hidden;
   overscroll-behavior: none;
   margin: 0;
   font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -610,5 +611,119 @@ html {
   display: -ms-flexbox;
   display: flex;
   height: 100%;
+}
+
+.intro-overlay .top {
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
+  position: absolute;
+  width: 100%;
+  z-index: 8;
+}
+
+.intro-overlay .top .overlay-top {
+  position: absolute;
+  height: 100%;
+  width: 33.333vw;
+  background: #252525;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .intro-overlay .top .overlay-top {
+    width: 100vw;
+  }
+}
+
+.intro-overlay .top .overlay-top:nth-child(2) {
+  left: 33.333%;
+}
+
+@media (max-width: 768px) {
+  .intro-overlay .top .overlay-top:nth-child(2) {
+    display: none;
+  }
+}
+
+.intro-overlay .top .overlay-top:nth-child(3) {
+  left: 66.666%;
+}
+
+@media (max-width: 768px) {
+  .intro-overlay .top .overlay-top:nth-child(3) {
+    display: none;
+  }
+}
+
+.intro-overlay .bottom {
+  height: 50vh;
+  height: calc(var(--vh, 1vh) * 50);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 8;
+}
+
+.intro-overlay .bottom .overlay-bottom {
+  position: absolute;
+  height: 100%;
+  width: 33.333vw;
+  background: #252525;
+  bottom: 0;
+  right: 66.666%;
+}
+
+@media (max-width: 768px) {
+  .intro-overlay .bottom .overlay-bottom {
+    right: 0;
+    width: 100vw;
+  }
+}
+
+.intro-overlay .bottom .overlay-bottom:nth-child(2) {
+  right: 33.333%;
+}
+
+@media (max-width: 768px) {
+  .intro-overlay .bottom .overlay-bottom:nth-child(2) {
+    width: 100vw;
+    top: 100%;
+    right: 0;
+  }
+}
+
+.intro-overlay .bottom .overlay-bottom:nth-child(3) {
+  right: 0;
+}
+
+@media (max-width: 768px) {
+  .intro-overlay .bottom .overlay-bottom:nth-child(3) {
+    width: 100vw;
+    top: 200%;
+  }
+}
+
+.App {
+  z-index: 2;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  position: relative;
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  background: #e2f5ee;
+}
+
+.page .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=App.css.map */
