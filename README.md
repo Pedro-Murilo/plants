@@ -46,6 +46,9 @@ This application is a UI inspired on [Melriver](https://melriver.com/) website, 
 <a href="https://greensock.com/">
   <img alt="Greensock" src="https://img.shields.io/badge/Greensock-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
 </a>
+<a href="https://reactrouter.com/">
+   <img alt="React Router" src="https://img.shields.io/badge/React_Router%20-%2320232a.svg?style=for-the-badge&logo=react-router&color=CA4245&logoColor=white" />
+</a>
 <a href="https://sass-lang.com/">
   <img alt="SASS" src="https://img.shields.io/badge/SASS%20-hotpink.svg?&style=for-the-badge&logo=SASS&logoColor=white"/>
 </a>
