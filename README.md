@@ -6,10 +6,10 @@
 <a href="https://reactjs.org/">
   <img alt="Made with ReactJS" src="https://img.shields.io/badge/Made%20with-React.JS-0b67a1?style=for-the-badge&logo=react" />
 </a>
+
+  <img alt="Repo Size" src="https://img.shields.io/github/repo-size/pedro-murilo/plants?color=24aff0&style=for-the-badge">
   
   <img alt="Last Commit" src="https://img.shields.io/github/last-commit/pedro-murilo/plants?color=85e356&style=for-the-badge">
-  
-  <img alt="License" src="https://img.shields.io/github/license/pedro-murilo/plants?color=de5649&style=for-the-badge"/>
   
   <a href="https://github.com/Pedro-Murilo/">
     <img alt="Developed by Pedro" src="https://img.shields.io/badge/Dev-Pedro-%3498db?color=e8e81e&style=for-the-badge">
