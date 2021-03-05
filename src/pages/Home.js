@@ -1,4 +1,4 @@
-
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from "react";
 import IntroOverlay from "../components/IntroOverlay";
 import Banner from "../components/Banner";
@@ -54,6 +54,11 @@ const Home = ({ dimensions }) => {
   useEffect(() => {
     homeAnimation(completeAnimation);
   }, []);
+
+  useEffect(() => {
+    let vh = dimensions.height * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  }, [dimensions.width]);
 
   return (
     <>
