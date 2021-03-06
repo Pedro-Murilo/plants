@@ -29,6 +29,9 @@
 
 ---
 ### ✨ Final Project
+
+> Netlify: https://plants-pedro.netlify.app/
+
 <p align="center">
   <img src="https://github.com/Pedro-Murilo/plants/blob/main/.github/plants-vid.gif" alt="Gif Final Project" />  
 </p>
